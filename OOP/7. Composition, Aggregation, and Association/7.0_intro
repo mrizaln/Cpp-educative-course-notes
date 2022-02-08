@@ -1,0 +1,30 @@
+==============[ Interaction Between Classes# ]==============
+
+By now, we’ve learned all we need to know about the creation and the behavior of a class.
+The concepts of inheritance and polymorphism taught us how to create dependent classes out of a base class.
+
+The next step after object-oriented programming is object-oriented design (OOD).
+OOD deals with the use of different class objects to create the design of an application.
+Naturally, this means that independent classes would have to find a way of interacting with each other.
+
+==============[ Connecting OOP and OOD# ]==============
+
+That interaction is what this section is all about. Composition, aggregation, and association are the
+final concepts of object-oriented programming. They act as a bridge between OOP and OOD. These three
+techniques are used to link different classes together through a variety of relationships. Before we delve
+into these techniques, let’s understand the different types of relationships they use
+
+==============[ Relationships Between Classes# ]==============
+    ------------[ Part-of ]------------
+
+    In this relationship, one class is a component of another class. Given two classes, class A and class B,
+    they are in a part-of relation if class A is a part of class B or vice-versa.
+
+    ------------[ Has-a ]------------
+
+    This is a slightly less concrete relationship between two classes. Class A and class B have a has-a
+    relationship if one or both need the other’s object to perform an operation, but both classes can exist
+    independently of each other.
+
+    This implies that a class has a reference to the object of the other class, but does not decide the
+    lifetime of the other class’s referenced object.

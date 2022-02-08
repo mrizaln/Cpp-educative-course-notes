@@ -1,0 +1,11 @@
+Avoiding Duplication of Code#
+
+Considering the previous example, if we have to implement another class for MoneyMarketAccount we don’t need to duplicate the code for the deposit() and withdraw() methods inside this new Class because we can inherit and use the parent class’s methods. In this way, we can avoid the duplication of code.
+
+Extensibility#
+
+Using inheritance, one can extend the base class logic as per the business logic of the derived class. This is an easy way to upgrade or enhance specific parts of a product without changing the core attributes. An existing class can act as a base class to derive a new class having upgraded features.
+
+Data Hiding#
+
+The base class can decide to keep some data private so that it cannot be altered by the derived class. This concept i.e. Encapsulation has already been discussed in the previous chapter.
